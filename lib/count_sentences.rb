@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class String
 
@@ -25,8 +25,6 @@ class String
   end
 
   def count_sentences
-
-    binding.pry
 
 # an instance method that should return the number of sentances in a string 
   end

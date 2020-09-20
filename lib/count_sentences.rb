@@ -25,10 +25,15 @@ class String
   end
 
   def count_sentences
-    # self.split 
-    self.count_sentences
-    
 
+    binding.pry
 
+# an instance method that should return the number of sentances in a string 
   end
 end
+
+string = String.new("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
+string.count_sentences
+
+#split
+#
